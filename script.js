@@ -1,42 +1,39 @@
-        function validate (number){
-             var inputList = document.getElementsByClassName("input");
-            if (number == 0){
-        //login
-            if(inputList[0].value ==""|| inputList[1].value ==""){
-            alert("Please fill data")
-            }
-            else{
-             alert("Login successfull")
-            }
-        }    else if(number == 1){
-                if(inputList[0].value ==""|| inputList[1].value ==""){
-            alert("Please fill data")
-            }
-                else{
-                alert("Login successfull")
-            }
-        }
-        }
+function validate(number){
+    var asd = document.getElementsByClassName("input");
+    if(number == 0){
+        if(asd[0].value == "" || asd[1].value == ""){
+            alert("plesae fill ur data")
+        }else{alert("login sucess");}
+    }else if (number == 1){
+        if(asd[3].value == "" || asd[4].value == ""|| asd[4].value == ""){
+            alert("plesae fill ur data")
+        }else{alert("login sucess");}   
+    
+
+    }
+}
+
+
+
+    
+
 
 function changeForm(param){
-    var divList =document.getElementsByClassName("forms");
-            if (param == 0){
-                //show login
-                divList[0].classList.add('form-style');
-                divList[0].classList.remove('hidden');
-                //hide register
-                divList[1].classList.remove('form-style');
-                divList[1].classList.add('hidden');
-                    } else if (param == 1) {
-                //show register
-                divList[1].classList.add('form-style');
-                divList[1].classList.remove('hidden');
-                //hide login
-                divList[0].classList.remove('form-style');
-                divList[0].classList.add('hidden');
-                    }
-                }
+    var qwe = document.getElementsByClassName("forms");
+    if(param==0){
+    qwe[0].classList.add('form-style');
+    qwe[0].classList.remove('hidden');
+        console.log('test')
+    qwe[1].classList.remove('form-style');
+    qwe[1].classList.add('hidden');
+}else if(param==1){
+    qwe[1].classList.add('form-style');
+    qwe[1].classList.remove('hidden');
 
+    qwe[0].classList.add('hidden');
+    qwe[0].classList.remove('form-style');
+}
+}
                 var divElements=document.getElementsByClassName('slider-content');
                 var sliderIndex = 0;
                 document.getElementsByClassName('slider')[0].addEventListener('click',function(event){
@@ -68,3 +65,5 @@ function changeForm(param){
                 divElements[sliderIndex].classList.remove('not-active');
                 })
                 
+
+            
