@@ -349,7 +349,6 @@ body{
     .btn-dark:hover{
         background: var(--carribean-green);
     }
-<<<<<<< HEAD
 
     
 .logo{
@@ -378,10 +377,6 @@ body{
 
       /*------------------------------*/
       @media screen and (min-width: 992px){
-=======
-    /*------------------------------*/
-    @media screen and (min-width: 992px){
->>>>>>> 43d6ae6d6f58bb429739ea519fef7965fe464dfe
         .product-items{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -419,7 +414,6 @@ body{
             height: 121.5vh;
         }
     }
-<<<<<<< HEAD
 
   @media only screen and (max-width:750px) and (min-width:200px){
     .product-items{
@@ -465,29 +459,3 @@ body{
       
       }
   }
-=======
-    
-.logo{
-    width: 100px; 
-    height: 80px;
-    border-radius: 30px;
-}
-.footer {
-    display: flex;
-    position: relative;
-    text-align: center;
-    width: 30%;
-    left: 35%;
-    color:#e66a45;
-    letter-spacing: 1px;
-  
-  }
-  
-  .footer h3 {
-    padding: 0;
-    margin-bottom:50px;
-  }
-  .footer i{
-      padding-top: 5px;
-  }
->>>>>>> 43d6ae6d6f58bb429739ea519fef7965fe464dfe
