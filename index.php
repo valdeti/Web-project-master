@@ -28,25 +28,16 @@
                   <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
                   <a href="#" onclick="changeForm(1)">Register</a>
                 </div>
-                <form id="mainForm" action="">
+                <form id="mainForm" action="businessLogic/loginVerify.php" method="post" onsubmit="return validate()">
                   <div class="login forms form-style">
                     <label for="">Username:</label>
-                    <input type="text" id='username' class="input login-element" placeholder="username..." />
+                    <input type="text" name='username' class="input" placeholder="username..." />
                     <label for="">Password:</label>
-                    <input type="password" class="input login-element" placeholder="password..." />
-                    <input id="submit" type="button" class="input submit" value="Login" onclick="validate('login')" />
-                  </div>
-                  <div class="register forms hidden">
-                    <label for="">Name:</label>
-                    <input type="text" class="input register-element" placeholder="username..." />
-                    <label for="">Lastname:</label>
-                    <input type="text" class="input register-element" placeholder="lastname..." />
-                    <label for="">Password:</label>
-                    <input type="text" class="input register-element" placeholder="password..." />
-                    <input id="submit" type="button" name='asdf' class="input submit" value="Login" onclick="validate('register')" />
+                    <input type="password" name='password' class="input" placeholder="password..." />
+                    <input id="submit" type="submit" name='login-btn' class="input submit" value="Login" />
                   </div>
                 </form>
-              </div>
+                            </div>
             </sector>
             </main>
 
