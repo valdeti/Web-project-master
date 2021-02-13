@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,36 +8,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/lojtaret.css">
-
     <title>Lojtaret</title>
 </head>
 <body>
     <nav class ="navbar">
-      <div class="navbar_container">
+        <div class="navbar_container">
         <img  src ="img/logoochess.jpg" class="logo"/>
        
         <ul class="navbar__menu">
           <li class="navbar__item">
-         <a href="index.html" class="navbar__links">Kryefaqja</a>
+         <a href="index.php" class="navbar__links">Kryefaqja</a>
           </li>
           <li class="navbar__item">
-            <a href="strategjite.html" class="navbar__links">Strategjite</a>
+            <a href="strategjite.php" class="navbar__links">Strategjite</a>
              </li>
              <li class="navbar__item">
-                <a href="meso.html" class="navbar__links">Meso figurat</a>
+                <a href="meso.php" class="navbar__links">Meso figurat</a>
                  </li>
                  <li class="navbar__item">
-                <a href="produktet.html" class="navbar__links">Produktet</a>
+                <a href="produktet.php" class="navbar__links">Produktet</a>
                 </li>
                 <li class="navbar__item">
-                <a href="historiku.html" class="navbar__links">Historiku</a>
+                <a href="historiku.php" class="navbar__links">Historiku</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="lojtaret.html" class="navbar__links">Lojtaret</a>
+                    <a href="lojtaret.php" class="navbar__links">Lojtaret</a>
                     </li>
         </ul>
-      </div>
-    </nav>
+        </div>
+        </nav>
+
   <main>
         <div class="slider">
           <div class="slider-content active">

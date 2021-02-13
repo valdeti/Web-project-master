@@ -2,12 +2,12 @@ function validate(number){
     var asd = document.getElementsByClassName("input");
     if(number == 0){
         if(asd[0].value == "" || asd[1].value == ""){
-            alert("please fill your data")
-        }else{alert("login success");}
+            alert("plesae fill ur data")
+        }else{alert("login sucess");}
     }else if (number == 1){
-        if(asd[3].value == "" || asd[4].value == ""|| asd[5].value == ""){
-            alert("please fill your data")
-        }else{alert("login success");}   
+        if(asd[3].value == "" || asd[4].value == ""|| asd[4].value == ""){
+            alert("plesae fill ur data")
+        }else{alert("login sucess");}   
     
 
     }
