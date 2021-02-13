@@ -1,11 +1,12 @@
-          
-    <!--<div class="footer">
-    <i>&copy;2020</i>
+<?php
 
-    <h3>ChessGame🤍-Te gjitha te drejtat e rezervuara</h3>
+ <div class="footer">
+            <i>&copy;2020</i>
         
-  </div>
-  <script src="script.js"></script>
-  
-</body>
-</html>
+            <h3>ChessGame🤍-Te gjitha te drejtat e rezervuara</h3>
+                
+          </div>
+ </body>
+ </html>
+
+?>
