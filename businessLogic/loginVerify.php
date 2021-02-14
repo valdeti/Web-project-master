@@ -64,3 +64,14 @@ class LoginLogic
         return $loggedInUser;
     }
 }
+
+class RegisterLogic
+{
+    public function __construct()
+    {
+    }
+
+    public function registerUser()
+    {
+    }
+}

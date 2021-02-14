@@ -18,6 +18,27 @@ session_start();
              <?php
             }
           ?>
+
+          <li class="navbar__item">
+          <?php
+          if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
+          ?>
+            <a href="strategjite.php" class="navbar__links">Strategjite</a>
+             </li>
+             <?php
+            }
+          ?>
+
+            <li class="navbar__item">
+          <?php
+          if (isset($_SESSION["role"]) && $_SESSION['role'] == '0') {
+          ?>
+            <a href="strategjite.php" class="navbar__links">Strategjite</a>
+             </li>
+             <?php
+            }
+          ?>
+
            <?php
           if (isset($_SESSION["role"])) {
           ?>
@@ -28,9 +49,7 @@ session_start();
             }
             ?>
              
-          <li class="navbar__item">
-            <a href="strategjite.php" class="navbar__links">Strategjite</a>
-             </li>
+          
              <li class="navbar__item">
                 <a href="meso.php" class="navbar__links">Meso figurat</a>
                  </li>
