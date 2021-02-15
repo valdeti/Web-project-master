@@ -1,4 +1,8 @@
 <?php
+include_once 'userMapper.php';
 if (isset($_GET['id'])) {
-    echo 'test'; //to be continued next week
+    $userId = $_GET['id'];
+    $mapper = new UserMapper();
+    $mapper->deleteUser($userId);
+    header("Location:../dashboard.php");
 }

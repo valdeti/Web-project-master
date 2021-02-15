@@ -50,7 +50,7 @@ class UserMapper extends DatabasePDOConfiguration
         $this->query = "select * from user";
         $statement = $this->conn->prepare($this->query);
         $statement->execute();
-        $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+        $result = $statement->fetchAll();
         return $result;
     }
 

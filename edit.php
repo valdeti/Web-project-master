@@ -13,9 +13,9 @@ if (isset($_GET['id'])) {
         <div class="login forms form-style">
             <input type="text" style="display:none;" value=<?php echo $userId; ?> name="id" />
             <label for="">Name:</label>
-            <input type="text" name='username' class="input" placeholder="username..." value=<?php echo $user['userName']; ?> />
+            <input type="text" name='username' class="input" placeholder="username..." value=<?php echo $user['username']; ?> />
             <label for="">Last Name:</label>
-            <input type="text" name='lastName' class="input" placeholder="password..." value=<?php echo $user['userLastName']; ?> />
+            <input type="text" name='lastname' class="input" placeholder="password..." value=<?php echo $user['userlastname']; ?> />
             <input id="submit" type="submit" name='login-btn' class="input submit" value="Edit" />
         </div>
     </form>

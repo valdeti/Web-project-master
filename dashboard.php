@@ -37,8 +37,8 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
             <thead>
                 <tr>
                     <td>Username</td>
-                    <td>Mosha</td>
-                    <td>Detajet</td>
+                    <td>userlastname</td>
+                    <!-- <td>Detajet</td> -->
                     <td>Modifiko</td>
                     <td>Fshij</td>
                 </tr>
@@ -48,14 +48,14 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
                 foreach ($userList as $user) {
                 ?>
                     <tr>
-                        <td><?php echo $user['userName']; ?></td>
-                        <td><?php echo $user['userLastName']; ?></td>
-                        <td><?php echo $user['userEmail']; ?></td>
-                        <td><a href=<?php echo "../businessLogic/detailsUser.php?id=" . $user['UserID']; //to be continued by students
-                                    ?>>Detajet</a></td>
-                        <td><a href=<?php echo "../edit.php?id=" . $user['UserID'];
+                        <td><?php echo $user['username']; ?></td>
+                        <td><?php echo $user['userlastname']; ?></td>
+                        <td><?php //echo $user['userEmail']; ?></td>
+                        <td><a href=<?php// echo "businessLogic/detailsUser.php?id=" . $user['UserID']; //to be continued by students
+                                    // ?>>Detajet</a></td>
+                        <td><a href=<?php echo "edit.php?id=" . $user['userid'];
                                     ?>>Modifiko</td>
-                        <td><a href=<?php echo "../businessLogic/deleteUser.php?id=" . $user['UserID'];
+                        <td><a href=<?php echo "businessLogic/deleteUser.php?id=" . $user['userid'];
                                     ?>>Fshij</td>
                     </tr>
                 <?php
