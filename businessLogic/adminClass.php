@@ -21,6 +21,7 @@ class Admin extends Person
     {
         setcookie("username", $this->getUsername(), time() + 2 * 24 * 60 * 60);
     }
+<<<<<<< HEAD
 
     public function getLastname()
     {
@@ -42,4 +43,6 @@ class Admin extends Person
     {
         return $this->role;
     }
+=======
+>>>>>>> f29da3abc79fee9e3018568a6d187ccc945717c8
 }

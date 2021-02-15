@@ -17,6 +17,7 @@
   <main>
   <?php
 include_once 'businessLogic/variables.php';
+<<<<<<< HEAD
 include_once 'businessLogic/userMapper.php';
 if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
     $mapper =  new UserMapper();
@@ -27,6 +28,15 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
 
 
 
+=======
+if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
+    $userList = VariablesExample::getUsers();
+} else {
+    header("Location:index.php");
+}
+
+
+>>>>>>> f29da3abc79fee9e3018568a6d187ccc945717c8
 ?>
 
 <div>
@@ -48,6 +58,7 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
                 foreach ($userList as $user) {
                 ?>
                     <tr>
+<<<<<<< HEAD
                         <td><?php echo $user['userName']; ?></td>
                         <td><?php echo $user['userLastName']; ?></td>
                         <td><?php echo $user['userEmail']; ?></td>
@@ -56,6 +67,15 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
                         <td><a href=<?php echo "../edit.php?id=" . $user['UserID'];
                                     ?>>Modifiko</td>
                         <td><a href=<?php echo "../businessLogic/deleteUser.php?id=" . $user['UserID'];
+=======
+                        <td><?php echo $user['username']; ?></td>
+                        <td><?php echo $user['age']; ?></td>
+                        <td><a href=<?php echo "businessLogic/detailsUser.php?id=" . $user['id']; //to be continued next week 
+                                    ?>>Detajet</a></td>
+                        <td><a href=<?php echo "businessLogic/modifyUser.php?id=" . $user['id']; //to be continued next week 
+                                    ?>>Modifiko</td>
+                        <td><a href=<?php echo "businessLogic/deleteUser.php?id=" . $user['id']; //to be continued next week 
+>>>>>>> f29da3abc79fee9e3018568a6d187ccc945717c8
                                     ?>>Fshij</td>
                     </tr>
                 <?php

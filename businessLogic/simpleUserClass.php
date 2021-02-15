@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 include_once 'personClass.php';
 
 class SimpleUser extends Person
@@ -8,6 +9,15 @@ class SimpleUser extends Person
     {
         parent::__construct($username, $password, $age, $role);
         $this->lastname = $lastname;
+=======
+require_once 'personClass.php';
+
+class SimpleUser extends Person
+{
+    public function __construct($username, $password, $age, $role)
+    {
+        parent::__construct($username, $password, $age, $role);
+>>>>>>> f29da3abc79fee9e3018568a6d187ccc945717c8
     }
 
     public function setSession()
@@ -20,6 +30,7 @@ class SimpleUser extends Person
     {
         setcookie("username", $this->getUsername(), time() + 2 * 24 * 60 * 60);
     }
+<<<<<<< HEAD
 
     public function getLastname()
     {
@@ -41,4 +52,6 @@ class SimpleUser extends Person
     {
         return $this->role;
     }
+=======
+>>>>>>> f29da3abc79fee9e3018568a6d187ccc945717c8
 }
