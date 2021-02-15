@@ -14,16 +14,8 @@ class VariablesExample
         self::$users = array(self::$loginAdminUser, self::$loginSimpleUser, self::$loginSimpleUser1, self::$loginSimpleUser2, self::$loginSimpleUser3, self::$loginSimpleUser4);
         return self::$users;
     }
-<<<<<<< HEAD
     
 }
 
 
 
-=======
-    //krijoni metoden statike dhe te kthehet lista e perdoruesve te meposhtem
-}
-
-
-//te dhenat e simuluara nga DB
->>>>>>> f29da3abc79fee9e3018568a6d187ccc945717c8
