@@ -11,11 +11,8 @@
     <title>dashboard</title>
 </head>
 <body>
- <?php 
-   include 'komponentet/header.php';
-?>
-  <main>
-  <?php
+<?php
+include 'komponentet/header.php';
 include_once 'businessLogic/variables.php';
 include_once 'businessLogic/userMapper.php';
 if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
@@ -24,7 +21,6 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
 } else {
     header("Location: index.php");
 }
-
 
 
 ?>
@@ -36,9 +32,8 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
         <table>
             <thead>
                 <tr>
-                    <td>Username</td>
-                    <td>userlastname</td>
-                    <!-- <td>Detajet</td> -->
+                    <td>Emri</td>
+                    <td>Mbiemri</td>
                     <td>Modifiko</td>
                     <td>Fshij</td>
                 </tr>
@@ -50,9 +45,6 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
                     <tr>
                         <td><?php echo $user['username']; ?></td>
                         <td><?php echo $user['userlastname']; ?></td>
-                        <td><?php //echo $user['userEmail']; ?></td>
-                        <td><a href=<?php// echo "businessLogic/detailsUser.php?id=" . $user['UserID']; //to be continued by students
-                                    // ?>>Detajet</a></td>
                         <td><a href=<?php echo "edit.php?id=" . $user['userid'];
                                     ?>>Modifiko</td>
                         <td><a href=<?php echo "businessLogic/deleteUser.php?id=" . $user['userid'];
@@ -72,8 +64,3 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
 <?php
 include 'komponentet/footer.php'
 ?>
-
-  </main>
-        
-        </body>
-        </html>
