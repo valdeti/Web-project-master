@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">  
     <title>dashboard</title>
 </head>
 <body>
@@ -26,7 +26,7 @@ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
 ?>
 
 <div>
-    <h1>This is Dashboard page</h1>
+    <h1 id="aa">This is Dashboard page</h1>
     <div>
         <h2>User list:</h2>
         <table>
