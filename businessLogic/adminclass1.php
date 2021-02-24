@@ -5,21 +5,11 @@ class Admin extends Produkti
 {
     public function __construct($idprodukti, $emri, $pershkrimi, $img)
     {
-        parent::__construct($idprodukti, $emri, $pershkrimi, $img); //equivalent to super in java
+        parent::__construct($idprodukti, $emri, $pershkrimi, $img); 
     }
 
 
-    // public function setSession()
-    // {
-
-    //     $_SESSION["role"] = 1;
-    //     $_SESSION['roleName'] = "Administrator";
-    // }
-
-    // public function setCookie()
-    // {
-    //     setcookie("idprodukti", $this->getidprodukti(), time() + 2 * 24 * 60 * 60);
-    // }
+ 
 
     public function getIdprodukti()
     {
@@ -29,10 +19,7 @@ class Admin extends Produkti
     {
         return $this->emri;
     }
-    public function getPershkrimi()
-    {
-        return $this->pershkrimi;
-    }
+    
     public function getImg()
     {
         return $this->img;
