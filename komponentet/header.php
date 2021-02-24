@@ -39,6 +39,17 @@ session_start();
             }
           ?>
 
+          <!--Produktet-->
+          <li class="navbar__item">
+          <?php
+          if (isset($_SESSION["role"]) && $_SESSION['role'] == '0') {
+          ?>
+            <a href="produktet.php" class="navbar__links">Produktet</a>
+             </li>
+             <?php
+            }
+          ?>
+
            <?php
           if (isset($_SESSION["role"])) {
           ?>
@@ -62,6 +73,9 @@ session_start();
                 </li>
                 <li class="navbar__item">
                     <a href="lojtaret.php" class="navbar__links">Lojtaret</a>
+                    </li>
+                    <li class="navbar__item">
+                    <a href="contact.php" class="navbar__links">Kontakti</a>
                     </li>
     
         </ul>

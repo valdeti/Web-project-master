@@ -43,7 +43,7 @@
       <input type="text" class="input" name="register-lastname" placeholder="password..." />
       <label for="">Password:</label>
       <input type="text" class="input" name="register-password" placeholder="password..." />
-      <input id="submitRegister" name="register-btn" type="submit" class="input submit" value="Login" />
+      <input id="submitRegister" name="register-btn" type="submit" class="input submit" value="Register" />
     </div>
   </form>
                             </div>

@@ -93,7 +93,7 @@ h2{
    margin-left: 10%;
  }
  
- @media only screen and (max-width:750px) and (min-width:200px){
+ @media only screen and (min-width:768px){
      .slider{
          margin-left: 50px;
        width: 800px;
