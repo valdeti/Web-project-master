@@ -43,3 +43,4 @@ class Admin extends Person
         return $this->role;
     }
 }
+

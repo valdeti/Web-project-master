@@ -239,7 +239,7 @@ body{
     }
     .product-info{
         background: #131313;
-        padding: 2rem;
+        padding: 5px 60px;
     }
     .product-info-top{
         display: flex;

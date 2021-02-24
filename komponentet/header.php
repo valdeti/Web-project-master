@@ -53,6 +53,7 @@ session_start();
              <li class="navbar__item">
                 <a href="meso.php" class="navbar__links">Meso figurat</a>
                  </li>
+                
                  <li class="navbar__item">
                 <a href="produktet.php" class="navbar__links">Produktet</a>
                 </li>

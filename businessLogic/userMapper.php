@@ -21,6 +21,7 @@ class UserMapper extends DatabasePDOConfiguration
         $result = $statement->fetch(PDO::FETCH_ASSOC);
         return $result;
     }
+ 
 
     public function edit(\SimpleUser $user, $id)
     {
