@@ -189,7 +189,7 @@
       padding-top: 5px;
   }
 
-  @media only screen and (max-width:750px) and (min-width:200px){
+
     .main-content{
         
         width: 100%;
@@ -266,4 +266,10 @@
         height: 200px;
     }
 
-  }
+    @media only screen  and (min-width:768px){
+        .main-content{
+            display:block;
+            width:100%;
+    
+        }
+    }

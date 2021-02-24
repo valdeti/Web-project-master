@@ -376,7 +376,7 @@ body{
   }
 
       /*------------------------------*/
-      @media screen and (min-width: 992px){
+      @media screen and (min-width: 768px){
         .product-items{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
