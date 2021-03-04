@@ -1,15 +1,10 @@
 <?php
 require_once 'personClass.php';
 
-class Admin extends Produkti
-{
-    public function __construct($idprodukti, $emri, $pershkrimi, $img)
-    {
-        parent::__construct($idprodukti, $emri, $pershkrimi, $img); 
-    }
+class Porodukti{
 
 
- 
+ //aaaaaaaaaaaaaaaaaaaaaa
 
     public function getIdprodukti()
     {
