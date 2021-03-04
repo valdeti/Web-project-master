@@ -23,7 +23,7 @@
                         <div class="sector1__text" >
                             <h1>Meso levizjet bazike te lojes se shahut</h1>
                             <h2>Figurat qe po shihen ne foto jane: Mbreti, Mbreteresha, Topi, Oficeri(lloferi), Kaloresi(kali), piuni</h2>
-                            <h2>Sic po shihet edhe ne foton me poshte, secila per figurave kane levizjet e tyre te veqanta.</h2>
+                            <h2>Sic po shihet edhe ne foton me me poshte, secila per figurave kane levizjet e tyre te veqanta.</h2>
                         </div>
                             <div class="sector1__image">
                             <img src="img/levizjet.jpg" alt=""/>
